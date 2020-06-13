@@ -26,12 +26,14 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.client.event.RenderGameOverlayEvent;
 import net.minecraftforge.client.event.RenderGameOverlayEvent.ElementType;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-@Mod.EventBusSubscriber(modid = "chaotic_mage", value = Dist.CLIENT)
+@OnlyIn(value = Dist.CLIENT)
+@Mod.EventBusSubscriber(modid = "better_overlay", value = Dist.CLIENT)
 public class EventHandler {
 	private static Minecraft mc = Minecraft.getInstance();
 	private final int color = 16777215;

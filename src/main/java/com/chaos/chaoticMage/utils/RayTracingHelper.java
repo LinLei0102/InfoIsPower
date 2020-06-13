@@ -8,6 +8,11 @@ import net.minecraft.util.math.RayTraceContext.FluidMode;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.Vec3d;
 
+/***
+ * Unused class
+ * @author ChAoS
+ *
+ */
 public class RayTracingHelper {
 	public static final RayTracingHelper INSTANCE = new RayTracingHelper();
     private RayTraceResult target = null;

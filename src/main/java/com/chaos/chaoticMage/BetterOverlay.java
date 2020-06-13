@@ -13,13 +13,12 @@ import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
-@Mod("chaoticmage")
-public class ChaoticMage {
+@Mod("better_overlay")
+public class BetterOverlay {
 	@SuppressWarnings("unused")
-	private static final Logger LOGGER = LogManager.getLogger("BeeViewer");
-	public static String MODID = "chaotic_mage";
+	private static final Logger LOGGER = LogManager.getLogger("better_overlay");
 
-	public ChaoticMage() {
+	public BetterOverlay() {
 		// Register the setup method for modloading
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
 		// Register the enqueueIMC method for modloading
