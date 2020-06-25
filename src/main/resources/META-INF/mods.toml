@@ -3,15 +3,15 @@ loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft versio
 issueTrackerURL="http://my.issue.tracker/" #optional
 [[mods]]
 modId="better_overlay" #mandatory
-version="1.15.2-1.0.0" #mandatory
+version="1.15.2-1.0.1" #mandatory
 displayName="Better Overlay" #mandatory
 updateJSONURL="http://myurl.me/" #optional
-displayURL="http://example.com/" #optional
-logoFile="examplemod.png" #optional
+displayURL="https://kylelin921021.github.io/ChAoS-UnItYs-Blog/" #optional
+logoFile="BetterOverlayLogo.png" #optional
 credits="" #optional
 authors="ChAoS_UnItY"
 description='''
-A mod provides more infos on your overlay.
+A client-side mod provides more details in game!
 '''
 
 [[dependencies.examplemod]] #optional
